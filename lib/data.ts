@@ -44,26 +44,27 @@ export const experiencesData = [
     date: "Dec 2022 - Feb 2023",
   },
   {
-    title: "Master of information technology",
-    location: "Sydeny, NSW",
-    description: "I studyed in computer science and data engineering at UNSW",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018 - 2021",
-  },
-  {
     title: "Frontend Developer",
     location: "China",
     description:
       "I developed an information management system. My stack includes Vue, MySQL, ElementUI.",
     icon: React.createElement(CgWorkAlt),
-    date: "2017 - 2018",
+    date: "July 2021 - Mar 2022",
   },
+  {
+    title: "Master of information technology",
+    location: "Sydeny, NSW",
+    description: "I studyed in computer science and data engineering at UNSW",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020",
+  },
+
   {
     title: "Bachelor of Engineering",
     location: "China",
     description: "I studyed in electronic engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2013 - 2017",
+    date: "2017",
   },
 ] as const;
 
